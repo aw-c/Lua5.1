@@ -2,13 +2,13 @@ local tbl = {}
 local str = false
 local sov = 0
 for i=1,100 do table.insert(tbl,i,i) end
-for k in ipairs(tbl) do
+for _,v1 in ipairs(tbl) do
     for _,v in ipairs(tbl) do
-        if k==v then
+        if v1==v then
             str = "sovpalo"
             sov = sov+1
         end
-        print(k,v,str and str or "ne sovpalo")
+        print(v1,v,str and str or "ne sovpalo")
         str = false
     end
 end
