@@ -8,6 +8,5 @@ function GenerateString(how)
         end
     end
     print("Generation was end at "..os.time(),os.date("%H:%M:%S - %d/%m/%Y" , os.time()))
-    print("Generation was linked to other var at "..os.time(),os.date("%H:%M:%S - %d/%m/%Y" , os.time()))
     return cache
 end
