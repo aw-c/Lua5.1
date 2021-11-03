@@ -1,4 +1,4 @@
-function GenerateString(how)
+function string.Generate(how)
     local cache = ""
     local char = string.char
     local rand = math.random
