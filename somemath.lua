@@ -21,4 +21,4 @@ end
 --  output: 450
 
 --  print(math.GetRandomNumbers(5,9))
---  output will random 5 numbers: 68997
+--  output will be random 5 numbers: 68997
