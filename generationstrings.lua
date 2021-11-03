@@ -1,5 +1,4 @@
 function GenerateString(how)
-    print("Generation was started at "..os.time(),os.date("%H:%M:%S - %d/%m/%Y" , os.time()))
     local cache = ""
     for i=1,how do
         cache = cache.."\n"
@@ -7,6 +6,5 @@ function GenerateString(how)
             cache = cache..string.char(math.random(10,126))
         end
     end
-    print("Generation was end at "..os.time(),os.date("%H:%M:%S - %d/%m/%Y" , os.time()))
     return cache
 end
