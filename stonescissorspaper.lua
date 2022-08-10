@@ -1,3 +1,7 @@
+-- Игра камень, ножницы, бумага!
+-- Developed by Alan Wake 8/10/2022
+
+
 local tbl = {
     "Stone",
     "Scissors",
